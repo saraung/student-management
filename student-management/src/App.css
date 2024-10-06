@@ -1,0 +1,32 @@
+.custom-textfield .MuiOutlinedInput-root {
+  background-color: #f0f0f0; /* Custom background color */
+}
+
+.custom-textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #3f51b5; /* Default border color */
+}
+
+.custom-textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #1e88e5; /* Border color on hover */
+}
+
+.custom-textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1e88e5; /* Border color when focused */
+}
+
+
+.add-student-button{
+  margin-left: 1020px;
+  margin-top: 15px;
+}
+
+.student-view-table{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.course-heading{
+  justify-content: center;
+  display: flex;
+}
